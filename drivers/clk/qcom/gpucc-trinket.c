@@ -195,7 +195,10 @@ static const struct freq_tbl ftbl_gpu_cc_gx_gfx3d_clk_src[] = {
 	F(820000000, P_GPU_CC_PLL0_OUT_AUX2, 2, 0, 0),
 	F(900000000, P_GPU_CC_PLL0_OUT_AUX2, 2, 0, 0),
 	F(950000000, P_GPU_CC_PLL0_OUT_AUX2, 2, 0, 0),
-	{ }
+	F(950000000, P_GPU_CC_PLL0_OUT_MAIN, 2, 0, 0),
+    F(1050000000, P_GPU_CC_PLL0_OUT_MAIN, 2, 0, 0),
+    F(1100000000, P_GPU_CC_PLL0_OUT_MAIN, 2, 0, 0),
+    { }
 };
 
 static struct clk_rcg2 gpu_cc_gx_gfx3d_clk_src = {
